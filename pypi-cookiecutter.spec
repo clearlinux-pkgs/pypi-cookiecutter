@@ -4,7 +4,7 @@
 #
 Name     : pypi-cookiecutter
 Version  : 1.7.3
-Release  : 11
+Release  : 12
 URL      : https://files.pythonhosted.org/packages/58/f5/6f41fa38e6efe4a0e85771f99a4ad8c33b4c14f03b4cc53b459aac4a629a/cookiecutter-1.7.3.tar.gz
 Source0  : https://files.pythonhosted.org/packages/58/f5/6f41fa38e6efe4a0e85771f99a4ad8c33b4c14f03b4cc53b459aac4a629a/cookiecutter-1.7.3.tar.gz
 Summary  : A command-line utility that creates projects from project templates, e.g. creating a Python package project from a Python package project template.
@@ -15,9 +15,6 @@ Requires: pypi-cookiecutter-license = %{version}-%{release}
 Requires: pypi-cookiecutter-python = %{version}-%{release}
 Requires: pypi-cookiecutter-python3 = %{version}-%{release}
 BuildRequires : buildreq-distutils3
-Provides: cookiecutter
-Provides: cookiecutter-python
-Provides: cookiecutter-python3
 BuildRequires : pypi(binaryornot)
 BuildRequires : pypi(click)
 BuildRequires : pypi(jinja2)
@@ -90,7 +87,7 @@ export http_proxy=http://127.0.0.1:9/
 export https_proxy=http://127.0.0.1:9/
 export no_proxy=localhost,127.0.0.1,0.0.0.0
 export LANG=C.UTF-8
-export SOURCE_DATE_EPOCH=1641424984
+export SOURCE_DATE_EPOCH=1649731401
 export GCC_IGNORE_WERROR=1
 export AR=gcc-ar
 export RANLIB=gcc-ranlib
