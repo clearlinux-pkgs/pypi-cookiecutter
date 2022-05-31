@@ -1,9 +1,0 @@
-1.7.3
-pypi(binaryornot)
-pypi(click)
-pypi(jinja2)
-pypi(jinja2_time)
-pypi(poyo)
-pypi(python_slugify)
-pypi(requests)
-pypi(six)
