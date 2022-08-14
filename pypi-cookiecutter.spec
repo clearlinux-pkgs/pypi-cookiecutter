@@ -4,7 +4,7 @@
 #
 Name     : pypi-cookiecutter
 Version  : 2.1.1
-Release  : 17
+Release  : 18
 URL      : https://files.pythonhosted.org/packages/96/43/65a3dad94dceaaaa12807ce4d4eff1064db6e91a8c6fb6945e3e61e63552/cookiecutter-2.1.1.tar.gz
 Source0  : https://files.pythonhosted.org/packages/96/43/65a3dad94dceaaaa12807ce4d4eff1064db6e91a8c6fb6945e3e61e63552/cookiecutter-2.1.1.tar.gz
 Summary  : A command-line utility that creates projects from project templates, e.g. creating a Python package project from a Python package project template.
