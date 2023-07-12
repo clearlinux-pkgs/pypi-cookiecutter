@@ -1,5 +1,5 @@
 PKG_NAME := pypi-cookiecutter
-URL = https://files.pythonhosted.org/packages/4f/19/6a371bbc955dc12dad03f79108c8fe8c6ae90c2bc1fe772124aad25b160c/cookiecutter-2.2.2.tar.gz
+URL = https://files.pythonhosted.org/packages/9d/84/b97f68b925cab6af93302af4e4536e211fd7f9c931382fc776f08e853158/cookiecutter-2.2.3.tar.gz
 ARCHIVES = 
 
 include ../common/Makefile.common

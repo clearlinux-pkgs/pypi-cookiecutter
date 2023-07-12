@@ -4,10 +4,10 @@
 # Using build pattern: pyproject
 #
 Name     : pypi-cookiecutter
-Version  : 2.2.2
-Release  : 25
-URL      : https://files.pythonhosted.org/packages/4f/19/6a371bbc955dc12dad03f79108c8fe8c6ae90c2bc1fe772124aad25b160c/cookiecutter-2.2.2.tar.gz
-Source0  : https://files.pythonhosted.org/packages/4f/19/6a371bbc955dc12dad03f79108c8fe8c6ae90c2bc1fe772124aad25b160c/cookiecutter-2.2.2.tar.gz
+Version  : 2.2.3
+Release  : 26
+URL      : https://files.pythonhosted.org/packages/9d/84/b97f68b925cab6af93302af4e4536e211fd7f9c931382fc776f08e853158/cookiecutter-2.2.3.tar.gz
+Source0  : https://files.pythonhosted.org/packages/9d/84/b97f68b925cab6af93302af4e4536e211fd7f9c931382fc776f08e853158/cookiecutter-2.2.3.tar.gz
 Summary  : A command-line utility that creates projects from project templates, e.g. creating a Python package project from a Python package project template.
 Group    : Development/Tools
 License  : BSD-3-Clause
@@ -69,10 +69,10 @@ python3 components for the pypi-cookiecutter package.
 
 
 %prep
-%setup -q -n cookiecutter-2.2.2
-cd %{_builddir}/cookiecutter-2.2.2
+%setup -q -n cookiecutter-2.2.3
+cd %{_builddir}/cookiecutter-2.2.3
 pushd ..
-cp -a cookiecutter-2.2.2 buildavx2
+cp -a cookiecutter-2.2.3 buildavx2
 popd
 
 %build
@@ -80,7 +80,7 @@ export http_proxy=http://127.0.0.1:9/
 export https_proxy=http://127.0.0.1:9/
 export no_proxy=localhost,127.0.0.1,0.0.0.0
 export LANG=C.UTF-8
-export SOURCE_DATE_EPOCH=1689002018
+export SOURCE_DATE_EPOCH=1689175376
 export GCC_IGNORE_WERROR=1
 export AR=gcc-ar
 export RANLIB=gcc-ranlib
