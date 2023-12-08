@@ -7,7 +7,7 @@
 #
 Name     : pypi-cookiecutter
 Version  : 2.5.0
-Release  : 32
+Release  : 33
 URL      : https://files.pythonhosted.org/packages/1a/5d/9f6a7b748436597060654c8b5815dabedd78893e566bc9838c6dcbf05e04/cookiecutter-2.5.0.tar.gz
 Source0  : https://files.pythonhosted.org/packages/1a/5d/9f6a7b748436597060654c8b5815dabedd78893e566bc9838c6dcbf05e04/cookiecutter-2.5.0.tar.gz
 Summary  : A command-line utility that creates projects from project templates, e.g. creating a Python package project from a Python package project template.
@@ -57,6 +57,15 @@ python components for the pypi-cookiecutter package.
 Summary: python3 components for the pypi-cookiecutter package.
 Group: Default
 Requires: python3-core
+Provides: pypi(cookiecutter)
+Requires: pypi(arrow)
+Requires: pypi(binaryornot)
+Requires: pypi(click)
+Requires: pypi(jinja2)
+Requires: pypi(python_slugify)
+Requires: pypi(pyyaml)
+Requires: pypi(requests)
+Requires: pypi(rich)
 
 %description python3
 python3 components for the pypi-cookiecutter package.
